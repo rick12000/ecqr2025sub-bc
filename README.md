@@ -6,7 +6,7 @@ This repository provides reproducible code for all benchmarking results reported
 
 It is not intended as a general use benchmarking utility and is not coded with the rigor of one.
 
-All **conformal quantile hyperparameter optimization** algorithms are called from a **separate dependency** (instructions later for how to ingest this in your python environment), and can be found at the following standalone, anonymized, repository: [https://github.com/researchingotter1324/ecqr2025sub-c](https://github.com/researchingotter1324/ecqr2025sub-c).
+All **conformal quantile hyperparameter optimization** algorithms are called from a **separate dependency** (instructions later for how to ingest this in your python environment), and can be found at the following standalone, anonymized, repository: [https://github.com/rick12000/ecqr2025sub-c](https://github.com/rick12000/ecqr2025sub-c).
 
 ## Installation
 
@@ -15,7 +15,7 @@ Create a python 3.10.9 (or other 3.10 version) environment with your environment
 ### 1. Repository:
 1. Clone repository:
    ```bash
-   git clone https://github.com/researchingotter1324/ecqr2025sub-bc
+   git clone https://github.com/rick12000/ecqr2025sub-bc
    cd ecqr2025sub-bc
    ```
 
@@ -30,7 +30,7 @@ Create a python 3.10.9 (or other 3.10 version) environment with your environment
 
 To resolve this, clone the below anonymized, up-to-date fork of Optuna, which tracks upstream closely and adds targeted customizations to the GP sampler:
    ```bash
-   git clone https://github.com/researchingotter1324/ecqr2025sub-optuna
+   git clone https://github.com/rick12000/ecqr2025sub-optuna
    cd ecqr2025sub-optuna
    ```
 
@@ -45,7 +45,7 @@ And install it in your environment directly by navigating to it while your pytho
 
 To resolve this, you can clone the below anonymized, single commit copy of a fork with minor edits to SMAC's `ConfigSpace` dependency:
    ```bash
-   git clone https://github.com/researchingotter1324/ecqr2025sub-smac
+   git clone https://github.com/rick12000/ecqr2025sub-smac
    cd ecqr2025sub-smac
    ```
 
@@ -68,7 +68,7 @@ All conformal quantile HPO algorithms are contained in ccqr_optimization. Like S
 First, clone and navigate to the below anonymized repository:
 
    ```bash
-   git clone https://github.com/researchingotter1324/ecqr2025sub-c
+   git clone https://github.com/rick12000/ecqr2025sub-c
    cd ecqr2025sub-c
    ```
 
